@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mistilo.css">
+
+    <title>Mi login</title>
+</head>
+
+<body class="mybackgrouds">
+    <div class="conteiner m-5" style="padding: 0% 30%;">
+        <div class="text-center">
+            <img src="../imagenes/pato-de-goma-doctor.png" alt="Logo" width="150">
+        </div>
+        <h2 class="fw-bold text-center py-3">login</h2>
+
+        <!-- formulario -->
+        <div>
+
+            <form action="">
+                <div class="mb-4">
+                    <label for="usuario" class="form-label p-2 mb-2 bg-dark text-white">Usuario</label>
+                    <input type="text" id="usuario" class="form-control">
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label p-2 mb-2 bg-dark text-white">Contraseña</label>
+                    <input type="password" id="password" class="form-control">
+                </div>
+
+                <div class="form-check mb-4">
+                    <input type="checkbox" id="mantener" class="form-check-imput">
+                    <label for="matener" class="form-check-label text-white">No cerrar sesion </label>
+
+                </div>
+                <div class="d-grid">
+                    <button class="btn btn-primary btn-lg btn-block" onclick="login()" type="button">Vamos</button>
+
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="">
+            <p class="text-white text-end">No tienes cuenta? <a href="registrar.html" class="link-dark">crea una cuenta</a></p>
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="text-center">
+            <a class="link-info" href="https://github.com/ger12xela"> Mi github Ge12xela</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../js/login.js"></script>
+
+</body>
+
+</html>

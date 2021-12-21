@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mistilo.css">
+    <title>Registro</title>
+</head>
+
+<body class="mybackgrouds">
+    <div class="row">
+        <div class="col p-5">
+            <div class="text-center">
+                <img src="../imagenes/logousac.png" class="" alt="logo" width="150">
+            </div>
+            <h2 class="fw-bold py-3 text-center">Registrate</h2>
+
+            <div style="padding: 0% 15%;">
+
+                <form action="">
+                    <div class="mb-4">
+                        <label for="nombre" class="form-label p-2 mb-2 bg-dark text-white text-start">Nombre</label>
+                        <input type="text" id="nombre" class="form-control">
+                    </div>
+                    <div class="mb-4">
+                        <label for="correo" class="form-label p-2 mb-2 bg-dark text-white">Correo electronico</label>
+                        <input type="text" id="correo" class="form-control">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="telefono" class="form-label p-2 mb-2 bg-dark text-white">Numero de telefono</label>
+                        <input type="number" id="telefono" class="form-control">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <div style="padding: 30% 15% 15% 0;">
+                <form action="">
+                    <div class="mb-4">
+
+                        <label for="password1" class="form-label p-2 mb-2 bg-dark text-white text-start">Contraseña</label>
+                        <input type="text" id="password1" class="form-control">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="password2" class="form-label p-2 mb-2 bg-dark text-white">Repite tu Contraseña</label>
+                        <input type="text" id="password2" class="form-control">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="d-grid" style="padding: 0 35%;">
+        <button class="btn btn-primary btn-lg btn-block" onclick="registrar()" type="button">Registrarse</button>
+
+    </div>
+
+</body>
+<footer>
+    <br>
+    <div class="text-center">
+        <a class="link-info" href="https://github.com/ger12xela"> Mi github Ge12xela</a>
+    </div>
+</footer>
+<script type="text/javascript" src="../js/registrar.js"></script>
+
+</html>
