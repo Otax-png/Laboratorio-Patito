@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mistilo.css">
+
+    <title>Subir Datos</title>
+</head>
+
+<body class="mybackgrouds">
+    <div class="conteiner m-3" style="padding: 0% 5%;">
+        <div class="text-end">
+            <img src="imagenes/pato-de-goma-doctor.png" alt="Logo" width="150">
+            <br>
+        </div>
+
+        <!-- formulario -->
+        <div class="row">
+            <br>
+            <div class="col" style="padding: 5% 30% 0% 0%;">
+                <h3 class="fw-bold text-start text-white bg-black">Busca aqui al paciente</h2>
+
+                    <form action="">
+                        <div class="mb-4">
+                            <input type="text" id="paciente" class="form-control">
+                        </div>
+                        <div class="d-grid col">
+                            <button class="btn btn-primary btn-lg btn-block" onclick="login()" type="button">Vamos</button>
+
+                        </div>
+
+                    </form>
+            </div>
+            <div class="col">
+                <form action="">
+                    <div class="mb-1" style="padding: 10% 15% 0% 0%;">
+                        <label for="examen" class="form-label p-1 mb-2 bg-dark text-white">examen</label>
+                        <input type="text" id="examen" class="form-control">
+                    </div>
+                    <div class="mb-1" style="padding: 0% 15% 0% 0%;">
+                        <label for="valor" class="form-label p-1 mb-2 bg-dark text-white">Valor</label>
+                        <input type="text" id="valor" class="form-control">
+                    </div>
+                    <div class="mb-1" style="padding: 0% 15% 0% 0%;">
+                        <label for="comentario" class="form-label p-1 mb-2 bg-dark text-white">Comentario</label>
+                        <input type="text" id="comentario" class="form-control">
+                        <br>
+                    </div>
+                    <div class="form-check mb-4">
+                        <label for="significativo-si" class="form-label p-1 mb-2 bg-dark text-white">significativo?</label>
+                        <input type="checkbox" id="significativo-si" class="form-check-imput">
+                        <label for="ignificativo-si" class="form-check-label text-black">si </label>
+                        <input type="checkbox" id="significativo-no" class="form-check-imput">
+                        <label for="significativo-no" class="form-check-label text-black">no </label>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

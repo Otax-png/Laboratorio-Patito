@@ -1,0 +1,33 @@
+{
+    "name": "nueva-carpeta",
+    "version": "1.0.0",
+    "description": "ejemplo server",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./API/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ger12xela/ipc2Diciembre2021.git"
+    },
+    "keywords": [
+        "ejemplo",
+        "node",
+        "express",
+        "javascript"
+    ],
+    "author": "Gerson Reynoso <ger12xela@gmail.com>",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/ger12xela/ipc2Diciembre2021/issues"
+    },
+    "homepage": "https://github.com/ger12xela/ipc2Diciembre2021#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "express": "^4.17.2",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}
